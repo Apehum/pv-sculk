@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pvsculk",
+  "version": "${version}",
+
+  "name": "Plasmo Voice Sculk",
+  "description": "",
+  "authors": [
+    "Apehum"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/pvsculk/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "su.plo.pvsculk.PlasmoVoiceSculk"
+    ]
+  },
+  "mixins": [
+    "pvsculk.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*",
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.19",
+    "java": ">=16"
+  }
+}
